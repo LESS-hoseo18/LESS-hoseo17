@@ -2,6 +2,7 @@
 # written by Sung Kyu Lim
 # limsk@ece.gatech.edu
 # 12/13/2017
+#assignmentC-Q1 1/4/2018
 
 # B1: import tensorflow
 import tensorflow as tf
