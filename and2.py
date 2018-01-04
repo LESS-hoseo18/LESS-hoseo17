@@ -2,7 +2,6 @@
 # written by Sung Kyu Lim
 # limsk@ece.gatech.edu
 # 12/13/2017
-#assignmentC-Q1 1/4/2018
 
 # B1: import tensorflow
 import tensorflow as tf
@@ -17,11 +16,11 @@ bias = 1.
 
 # B4: training data
 train_in = [[T, T, bias], [T, F, bias], [F, T, bias], [F, F, bias]]
-train_out = [[T], [T], [T], [F]]
+train_out = [[F], [T], [T], [F]]
 
 # B5: weight matrix definition
 w = tf.Variable(tf.random_normal([3, 1]))
-
+#
 # B6: step activation function
 # step(x) = { 1 if x > 0; -1 otherwise }
 def step(x):
